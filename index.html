@@ -10,15 +10,24 @@
   <body>
     <main class="container">
       <article class="card">
-        <img
-          src="/images/image-equilibrium.jpg"
-          alt="A transparent cube with red and blue hues"
-        />
-        <header>
-          <h2>Equilibrium #3429</h2>
+        <a class="card-image-link" href="#">
+          <img
+            class="card-image"
+            src="/images/image-equilibrium.jpg"
+            alt="A transparent cube with red and blue hues"
+          />
+          <div class="card-image-overlay"></div>
+          <img
+            class="card-image-view"
+            src="/images/icon-view.svg"
+            alt="View icon"
+          />
+        </a>
+        <header class="card-header">
+          <h2><a class="card-title-link" href="#">Equilibrium #3429</a></h2>
           <p>Our Equilibrium collection promotes balance and calm.</p>
         </header>
-        <div>
+        <div class="card-info">
           <div>
             <img src="/images/icon-ethereum.svg" alt="Ethereum icon" />
             <p>0.041 ETH</p>
@@ -27,12 +36,12 @@
             <img src="/images/icon-clock.svg" alt="Clock icon" />
             <p>3 days left</p>
           </div>
-          <div class="separator-line"></div>
-          <footer>
-            <img src="/images/image-avatar.png" alt="Avatar of Jules Wyvern" />
-            <p>Creation of <span>Jules Wyvern</span></p>
-          </footer>
         </div>
+        <div class="separator-line"></div>
+        <footer class="card-footer">
+          <img src="/images/image-avatar.png" alt="Avatar of Jules Wyvern" />
+          <p>Creation of <a class="author-link" href="#">Jules Wyvern</a></p>
+        </footer>
       </article>
     </main>
   </body>
