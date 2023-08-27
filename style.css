@@ -240,6 +240,10 @@ h2 {
 }
 
 @media (min-width: 768px) {
+  .card {
+    padding-bottom: var(--spacing-lg);
+  }
+
   .card-header,
   .card-info {
     margin-bottom: var(--spacing-md);
